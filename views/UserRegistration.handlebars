@@ -1,0 +1,34 @@
+<section id="UserRegistration_wrap">
+    <div id="UserRegistration">
+        <div>
+            <p style="text-align: right; font-size:1.5em;" id="RegistrationClose">&#10006;</p>
+            <form method="POST" action="">
+                <input type="email" name="RegistrationEmail_name" id="RegistrationEmail" placeholder="Email address"
+                    class="userReg" value="{{r_email}}"><br>
+                <div class="errors">{{{message.email}}}</div>
+                <input type="text" name="RegistrationFirstName_name" id="RegistrationFirstName" placeholder="First name"
+                    class="userReg" value="{{r_first_name}}"><br>
+                <div class="errors">{{{message.first_name}}}</div>
+                <input type="text" name="RegistrationLastName_name" id="RegistrationLastName" placeholder="Last name"
+                    class="userReg" value="{{r_last_name}}"><br>
+                <div class="errors">{{{message.last_name}}}</div>
+                <input type="password" name="RegistrationPassword_name" id="RegistrationPassword"
+                    placeholder="Create a Password" class="userReg" value="{{r_password}}"><br>
+                <div class="errors">{{{message.password}}}</div>
+                <label id="BirthHeader">Birthday</label><br>
+                <label>To sign up, you need to be at least 18 years old. Other people who use WillBrB won't see
+                    your
+                    birthday.</label><br>
+                <input type="date" name="registration_birth_name" id="registration_birth" class="userReg"
+                    value="{{r_date_of_birth}}">
+                <div class="errors">{{{message.birthday}}}</div>
+                <input type="checkbox" name="registration_subscription_name" id="registration_subscription" checked>
+                <label>If checked, we’ll send you marketing promotions, special offers, inspiration, and policy
+                    updates via
+                    email.</label><br>
+                <input type="submit" value="Sign Up" id="Registration_SignUp">
+        </div>
+    </div>
+</section>
+<div id="header_image"><img src="IMG/house.jpg" alt="house.jpg"></div>
+<script src="JS/home.js"></script>

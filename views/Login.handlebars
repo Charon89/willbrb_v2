@@ -1,0 +1,18 @@
+<section id="UserRegistration_wrap">
+    <div id="UserRegistration">
+        <div>
+            <p style="text-align: right; font-size:1.5em;" id="RegistrationClose">&#10006;</p>
+            <form method="POST" action="">
+                <label id="Login_label">Login</label><br>
+                <input type="email" name="login_email_name" id="RegistrationEmail" placeholder="Email address"
+                    class="userReg" value="{{r_email}}"><br>
+                <div class="errors">{{{message.email}}}</div>
+                <input type="password" name="login_password_name" id="RegistrationPassword" placeholder="Password"
+                    class="userReg"><br>
+                <div class="errors">{{{message.password}}}</div>
+                <input type="submit" value="Log In" id="Registration_SignUp">
+        </div>
+    </div>
+</section>
+<div id="header_image"><img src="IMG/house.jpg" alt="house.jpg"></div>
+<script src="JS/home.js"></script>

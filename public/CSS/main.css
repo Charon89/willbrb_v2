@@ -1,0 +1,188 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/*****USER REGISTRATION****/
+#UserRegistration_wrap {
+  display: block;
+}
+
+#Login_label {
+  font-size: 1.5em;
+}
+
+#UserRegistration {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100px 1fr 100px;
+      grid-template-columns: 100px 1fr 100px;
+}
+
+#UserRegistration ::-webkit-input-placeholder {
+  padding: 10px;
+}
+
+#UserRegistration :-ms-input-placeholder {
+  padding: 10px;
+}
+
+#UserRegistration ::-ms-input-placeholder {
+  padding: 10px;
+}
+
+#UserRegistration ::placeholder {
+  padding: 10px;
+}
+
+#UserRegistration > div {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  height: auto;
+  -ms-grid-column: 2;
+  grid-column: 2;
+  background: white;
+  padding: 30px;
+  -webkit-box-shadow: 1px 1px 10px 2px #929292;
+          box-shadow: 1px 1px 10px 2px #929292;
+  width: 450px;
+}
+
+#UserRegistration form {
+  text-align: center;
+}
+
+.userReg {
+  border-radius: 5px;
+  margin: 15px;
+  width: 400px;
+  height: 50px;
+  font-size: 1.3em;
+  border: 1px solid #BFBFBF;
+}
+
+#Registration_SignUp {
+  font-size: 1.1em;
+  padding: 15px 40px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background-color: #ff4e00;
+  -webkit-box-shadow: 1px 1px 5px #505050;
+          box-shadow: 1px 1px 5px #505050;
+}
+
+#Registration_SignUp:hover {
+  -webkit-box-shadow: inset 2px 2px 5px #505050;
+          box-shadow: inset 2px 2px 5px #505050;
+}
+
+#RegistrationClose {
+  cursor: pointer;
+}
+
+body {
+  background-color: transparent;
+  color: black;
+  font-family: 'Kanit', sans-serif;
+}
+
+.errors {
+  color: red;
+}
+
+#logo {
+  -ms-flex-item-align: right;
+      -ms-grid-row-align: right;
+      align-self: right;
+  -ms-grid-column-align: right;
+      justify-self: right;
+  width: 70px;
+  height: auto;
+  padding: 10px 0px;
+}
+
+#app_name {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-size: 3em;
+}
+
+.navigation_items li {
+  display: inline-block;
+  padding: 20px;
+}
+
+#navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100px 1fr 700px;
+      grid-template-columns: 100px 1fr 700px;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+.navigation_items {
+  text-align: right;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column: 3;
+  grid-column: 3;
+  font-size: 1.1em;
+}
+
+a {
+  text-decoration: none;
+  color: #a3a3a3;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+a:hover {
+  border-bottom: 5px solid black;
+  color: black;
+}
+
+#Registration_SignUp {
+  margin: 15px;
+}
+
+footer {
+  margin-top: 30px;
+  padding: 30px 0;
+  margin-top: 30px;
+}
+
+.footer_wrap {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20% 1fr 1fr 1fr 20%;
+      grid-template-columns: 20% 1fr 1fr 1fr 20%;
+  text-align: center;
+}
+
+.footer_wrap :nth-child(1) {
+  -ms-grid-column: 2;
+  grid-column: 2;
+}
+
+.footer_wrap img {
+  -webkit-transition: 5s;
+  transition: 5s;
+}
+/*# sourceMappingURL=main.css.map */

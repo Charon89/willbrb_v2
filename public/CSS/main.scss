@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@import'user_registration';
+@import'variables';
+
+body {
+    background-color: transparent;
+    color: black;
+    font-family: 'Kanit', sans-serif;
+}
+
+.errors {
+    color: red;
+}
+
+#logo {
+    align-self: right;
+    justify-self: right;
+    width: 70px;
+    height: auto;
+    padding: 10px 0px;
+}
+
+#app_name {
+    align-self: center;
+    font-size: 3em;
+}
+
+.navigation_items li {
+    display: inline-block;
+    padding: 20px;
+}
+
+#navbar {
+    position: sticky;
+    top: 0px;
+    display: grid;
+    grid-template-columns: 100px 1fr 700px;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+.navigation_items {
+    text-align: right;
+    align-self: center;
+    grid-column: 3;
+    font-size: 1.1em;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(163, 163, 163);
+    transition: 0.3s;
+}
+
+a:hover {
+    border-bottom: 5px solid black;
+    color: black;
+}
+
+#Registration_SignUp {
+    margin: 15px;
+}
+
+footer {
+    margin-top: 30px;
+    padding: 30px 0;
+    margin-top: 30px;
+}
+
+.footer_wrap {
+    display: grid;
+    grid-template-columns: 20% 1fr 1fr 1fr 20%;
+    text-align: center;
+
+}
+
+.footer_wrap :nth-child(1) {
+    grid-column: 2;
+}
+
+.footer_wrap img {
+    transition: 5s;
+}
+
